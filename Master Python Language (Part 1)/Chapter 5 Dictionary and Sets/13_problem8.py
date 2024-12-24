@@ -1,0 +1,9 @@
+# Can u change the value in list which is stored in the set ?
+
+s = {8, 7, 56, "Yash", [2,4]}
+
+s[4][2] = 9
+
+# No we can't change the value because first of all we can never store list as an element in a set.....
+# Also indexing in set is not possible .....
+# Also list are not hashable so it can't be added to a set.....
